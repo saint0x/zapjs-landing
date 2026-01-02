@@ -9,6 +9,11 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  build: {
+    rollupOptions: {
+      external: ['@zap-js/server', '@zap-js/client/node'],
+    },
+  },
   server: {
     proxy: {
       '/api': {
