@@ -15,7 +15,7 @@ COPY routes ./routes
 COPY public ./public
 COPY index.html ./
 COPY vite.config.ts tailwind.config.js postcss.config.js ./
-COPY tsconfig.json zap.config.ts ./
+COPY tsconfig.json tsconfig.node.json zap.config.ts ./
 
 # Build the application (includes frontend and binary setup)
 RUN bun run build
