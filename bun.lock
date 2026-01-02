@@ -5,8 +5,8 @@
     "": {
       "name": "zapjs-landing",
       "dependencies": {
-        "@zap-js/client": "^0.1.2",
-        "@zap-js/server": "^0.1.2",
+        "@zap-js/client": "^0.1.7",
+        "@zap-js/server": "^0.1.7",
         "class-variance-authority": "^0.7.0",
         "clsx": "^2.1.1",
         "framer-motion": "^11.11.0",
@@ -214,15 +214,15 @@
 
     "@vitejs/plugin-react": ["@vitejs/plugin-react@4.7.0", "", { "dependencies": { "@babel/core": "^7.28.0", "@babel/plugin-transform-react-jsx-self": "^7.27.1", "@babel/plugin-transform-react-jsx-source": "^7.27.1", "@rolldown/pluginutils": "1.0.0-beta.27", "@types/babel__core": "^7.20.5", "react-refresh": "^0.17.0" }, "peerDependencies": { "vite": "^4.2.0 || ^5.0.0 || ^6.0.0 || ^7.0.0" } }, "sha512-gUu9hwfWvvEDBBmgtAowQCojwZmJ5mcLn3aufeCsitijs3+f2NsrPtlAWIR6OPiqljl96GVCUbLe0HyqIpVaoA=="],
 
-    "@zap-js/client": ["@zap-js/client@0.1.4", "", { "dependencies": { "@babel/parser": "^7.28.5", "@babel/traverse": "^7.28.5", "@babel/types": "^7.28.5", "@msgpack/msgpack": "^3.1.2", "@types/fs-extra": "^11.0.4", "chalk": "^5.3.0", "chokidar": "^3.5.3", "commander": "^12.0.0", "express": "^4.18.2", "fs-extra": "^11.3.2", "http-proxy-middleware": "^2.0.6", "inquirer": "^9.2.12", "ora": "^6.0.0", "react": "^18.0.0", "react-dom": "^18.0.0", "strip-ansi": "^7.0.0", "tsx": "^4.21.0", "vite": "^5.0.0", "ws": "^8.16.0" }, "optionalDependencies": { "@zap-js/darwin-arm64": "0.1.4", "@zap-js/darwin-x64": "0.1.4", "@zap-js/linux-x64": "0.1.4" }, "bin": { "zap": "dist/cli/index.js" } }, "sha512-NR0HSOaCK6mc1tfjIBcC5V2FaDZwdQaOZGOC5DDyi5l2DVQrl/Ds8XVq1OqZChJbo1ipkNVt88V1geQIWlr0sQ=="],
+    "@zap-js/client": ["@zap-js/client@0.1.7", "", { "dependencies": { "@babel/parser": "^7.28.5", "@babel/traverse": "^7.28.5", "@babel/types": "^7.28.5", "@msgpack/msgpack": "^3.1.2", "@types/fs-extra": "^11.0.4", "chalk": "^5.3.0", "chokidar": "^3.5.3", "commander": "^12.0.0", "express": "^4.18.2", "fs-extra": "^11.3.2", "http-proxy-middleware": "^2.0.6", "inquirer": "^9.2.12", "ora": "^6.0.0", "react": "^18.0.0", "react-dom": "^18.0.0", "strip-ansi": "^7.0.0", "tsx": "^4.21.0", "vite": "^5.0.0", "ws": "^8.16.0" }, "optionalDependencies": { "@zap-js/darwin-arm64": "0.1.7", "@zap-js/darwin-x64": "0.1.7", "@zap-js/linux-x64": "0.1.7" }, "bin": { "zap": "dist/cli/index.js" } }, "sha512-Wd0aduM6nGEAGaI7XSBbtaBM6pqzGlzJQP/dRrfOyONNJ6Dkfyszb8J8g3VzwYcTWBY9QvMgFnJfmr8uBC6ajA=="],
 
-    "@zap-js/darwin-arm64": ["@zap-js/darwin-arm64@0.1.4", "", { "os": "darwin", "cpu": "arm64" }, "sha512-MWDtfxCUruqXibQhEzvBfpagyreHYCjryal397h/ezmpJsW5LERbZA7nBtcb/YPVs0y1TPDniSnj8IB7r1U7wA=="],
+    "@zap-js/darwin-arm64": ["@zap-js/darwin-arm64@0.1.7", "", { "os": "darwin", "cpu": "arm64" }, "sha512-sR8/KhcMlCFo5wCLAV+S9JEMrMo/C9e/lE7jxA5izEwkA6JlMNA8Ae93EZ0sYEtBV59XQq66yXG+cBSd8+NOFw=="],
 
-    "@zap-js/darwin-x64": ["@zap-js/darwin-x64@0.1.4", "", { "os": "darwin", "cpu": "x64" }, "sha512-TSgFn6eWgkBpi3eXoVYy2Pf8/pIb0soYcLEuZUToPql7Ewv/Lj3gNhGwYPyNdrHHexiNX/NjPembR9TiDBeopA=="],
+    "@zap-js/darwin-x64": ["@zap-js/darwin-x64@0.1.7", "", { "os": "darwin", "cpu": "x64" }, "sha512-1FmQVA9ssVo38ZJFIcCh2MvLTqVvtFxjLaD8FLw/tgVR0+fYEMyC93oKxTfiOu9iBsYUX06SNhYW8AiDMeMB7Q=="],
 
-    "@zap-js/linux-x64": ["@zap-js/linux-x64@0.1.4", "", { "os": "linux", "cpu": "x64" }, "sha512-PA+wat27mndTuzyvyCiXRyRoZcDwe9pN3wd68pSSOh+xfrIsgPszMfLZw8L3rSONizD0fvQaT1NeOoXmBfQ4PA=="],
+    "@zap-js/linux-x64": ["@zap-js/linux-x64@0.1.7", "", { "os": "linux", "cpu": "x64" }, "sha512-/3Uf182clCfoDo/21PrkK4jPx9/3XWvNtMiypqXfi/Tv6rxqm+fTz4UF0QAepqfs7gsg2fdcJsu8wosWFOlNjA=="],
 
-    "@zap-js/server": ["@zap-js/server@0.1.4", "", { "dependencies": { "@zap-js/client": "^0.1.4" } }, "sha512-GYLPTEdIZpxex2cMYyjsJ0rdH5xz6/3Olzv5VgkJSGPLgKpJI4M4uAlNS4AT0vMZleBGOqwdmdGUFceF4u7BOw=="],
+    "@zap-js/server": ["@zap-js/server@0.1.7", "", { "dependencies": { "@zap-js/client": "^0.1.7" } }, "sha512-xzwxlKRD/wtb5+HwdCyaEQf0SXyL3DULJygI0T0ZtxUDz7qE/+CP0eqZvgK6eJSv5rpENPQyJBRHLkrLu+PvSw=="],
 
     "accepts": ["accepts@1.3.8", "", { "dependencies": { "mime-types": "~2.1.34", "negotiator": "0.6.3" } }, "sha512-PYAthTa2m2VKxuvSD3DPC/Gy+U+sOA1LAuT8mkmRuvw+NACSaeXEQ+NHcVF7rONl6qcaxV3Uuemwawk+7+SJLw=="],
 
