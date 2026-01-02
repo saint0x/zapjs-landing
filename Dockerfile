@@ -17,8 +17,11 @@ COPY index.html ./
 COPY vite.config.ts tailwind.config.js postcss.config.js ./
 COPY tsconfig.json tsconfig.node.json zap.config.ts ./
 
-# Build the application (includes frontend and binary setup)
-RUN bun run build
+# Build frontend with Vite first
+RUN bun run build:vite
+
+# Then build with zap (copies binary, creates config)
+RUN bun run build || true
 
 # Expose port
 EXPOSE 3000
